@@ -1,0 +1,94 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+
+
+header{
+    color:white;
+    height:4rem;
+    width:100%;
+}
+
+.tab{
+    width:100%;
+    height:4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.tab--law, .tab--routine{
+    font-size:2rem;
+    color:red;
+    background:white;
+}
+
+section{
+    height: calc( 100vh - 8rem);
+    overflow-y: scroll;
+    background:black;
+    color:white;
+}
+
+.button{
+    display:flex;
+    flex-wrap:wrap;
+    gap:2rem;
+    justify-content: center;
+    margin-top:4rem;
+}
+
+.button--left, .button--right{
+    cursor: pointer;
+}
+
+.section--law{
+    display:block;
+}
+
+.section--routine{
+    display:none;
+}
+
+
+.myDate{
+    margin:5px 35px;
+    font-size:1.2rem;
+}
+
+
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    width:350px;
+    height:2rem;
+    justify-content: flex-start;
+}
+
+.streak{
+    display:inline-block;
+    margin-left:3rem;
+}
+
+#newRoutine{
+    height:2rem;
+    margin:1rem 0 0.2rem 1rem;
+}
+
+.routine--row{
+    margin-left:1.5rem;
+font-size:1.5rem;
+width:350px;
+display:flex;
+flex-wrap: wrap;
+
+}
+
+.routine__text{
+    width:150px;
+text-align: center;
+}
